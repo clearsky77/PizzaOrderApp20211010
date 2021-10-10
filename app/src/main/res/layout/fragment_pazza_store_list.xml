@@ -5,9 +5,9 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <TextView
+    <ListView
+        android:id="@+id/pizzaStoreListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="표시"/>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
